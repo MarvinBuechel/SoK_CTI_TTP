@@ -16,7 +16,7 @@ We take stock, systematize the knowledge in the field, and empirically evaluate 
 The repository is structured as follows:  
 * `NER`: Contains the code related to the NER approaches (Sections 2.2, 4).
 * `classification`: Contains related to the Classification approaches (Sections 2.3, 5)
-* `gLLM`: Contains the code related to the Generation approaches (Sections 2.4, 6)
+* `generative`: Contains the code related to the Generation approaches (Sections 2.4, 6)
 * `scraping`: Contains the code for collecting papers from DBLP and Google Scholar, following the description of Section 2.1
 * `ext_tools`: Contains the code of the comparison experiment presented in Appendix A.1, with the implementations of three state-of-the-art approaches.
 * `datasets`: Contains the used datasets MITRE TRAM2 with our proposed split, Bosch AnnoCTR dataset, Augmented TRAM2 dataset and the corresponding instruction datasets to train the generative LLM in natural language.
