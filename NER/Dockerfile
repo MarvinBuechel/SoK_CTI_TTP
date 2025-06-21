@@ -32,4 +32,10 @@ WORKDIR /ner
 COPY experiments/ experiments/
 COPY data/ data/
 WORKDIR /ner/experiments/
+
+RUN chmod +x ablation.sh
+RUN chmod +x run_pipelines.sh
+RUN chmod +x evaluate_pipelines.sh
+RUN chmod +x create_pipelines.sh
+
 CMD ["/bin/bash", "ablation.sh"]
