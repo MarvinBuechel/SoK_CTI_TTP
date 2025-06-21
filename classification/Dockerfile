@@ -39,6 +39,8 @@ COPY datasets/ datasets
 COPY local/ local
 COPY .darkbert_token .
 
+RUN chmod +x artifact_eval/*.sh
+
 ARG RUN_DEVICE 
 ENV DEVICE=${RUN_DEVICE:-cuda}
 
