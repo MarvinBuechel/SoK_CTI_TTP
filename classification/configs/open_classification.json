@@ -1,0 +1,59 @@
+{
+    "bosch": {
+        "bosch_t10": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.5
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.5
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.5
+            }
+        },
+        "bosch_t25": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.5
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.5
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.5
+            }
+        },
+        "bosch_t50": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.5
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.5
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.5
+            }
+        },
+        "bosch_t": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.5
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.5
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.5
+            }
+        },
+        "all_mitre": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.5
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.5
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.5
+            }
+        }
+    }
+}

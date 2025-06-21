@@ -1,0 +1,1 @@
+{"nodes": [{"type": "actor", "nlp": ["Flame"], "ioc": [], "count": 1}, {"type": "executable", "nlp": ["BeetleJuice", "information", "Bluetooth devices"], "ioc": [], "count": 2}, {"type": "system", "nlp": ["system"], "ioc": [], "count": 1}], "edges": [[[0, 1], 1], [[1, 2], 1], [[2, 1], 1]], "instances": [[[0, 1], [1, 2], [2, 1]]], "total_count": 1}

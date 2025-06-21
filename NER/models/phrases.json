@@ -1,0 +1,95 @@
+{
+    "M1022": ["Restrict File Permissions", "Restrict Directory Permissions"],
+    "M1042": [
+        "Disable Feature",
+        "Disable Program",
+        "Remove Feature",
+        "Remove Program"
+    ],
+    "M1048": ["Application Isolation", "Application Sandboxing"],
+    "T1003.008": ["/etc/passwd", "/etc/shadow"],
+    "T1011": ["Exfiltration Over Network"],
+    "T1021": ["SMB Shares", "Windows Admin Shares"],
+    "T1027": ["Obfuscated Files", "Obfuscated Information"],
+    "T1033": ["System Owner", "User Discovery"],
+    "T1036.004": ["Masquerade Task", "Service"],
+    "T1036.005": ["Match Legitimate Name", "Match Legitimate Location"],
+    "T1037": ["Boot Initialization Scripts", "Logon Initialization Scripts"],
+    "T1048": ["Exfiltration Over Protocol"],
+    "T1053": ["Scheduled Task", "Scheduled Job"],
+    "T1059": ["Command Interpreter", "Scripting Interpreter"],
+    "T1070.002": [
+        "Clear Linux System Logs",
+        "Clear Linux Logs",
+        "Clear Mac System Logs",
+        "Clear Mac Logs"
+    ],
+    "T1083": ["File Discovery", "Directory Discovery"],
+    "T1111": ["2FA", "MFA", "2FA Interception", "MFA Interception"],
+    "T1124": ["System Time"],
+    "T1134.001": ["Token Impersonation", "Token Theft"],
+    "T1134.003": ["Make Token", "Impersonate Token"],
+    "T1140": [
+        "Deobfuscate Files",
+        "Deobfuscate Information",
+        "Decode Files",
+        "Decode Information"
+    ],
+    "T1195.001": [
+        "Compromise Software Dependencies",
+        "Compromise Development Tools"
+    ],
+    "T1218.009": ["Regsvcs", "Regasm"],
+    "T1222": [
+        "File Permissions Modification",
+        "Directory Permissions Modification"
+    ],
+    "T1222.001": [
+        "Windows File Permissions Modification",
+        "Windows Directory Permissions Modification"
+    ],
+    "T1222.002": [
+        "Linux File Permissions Modification",
+        "Linux Directory Permissions Modification",
+        "Mac File Permissions Modification",
+        "Mac Directory Permissions Modification"
+    ],
+    "T1486": ["Ransomware"],
+    "T1497": ["Virtualization Evasion", "Sandbox Evasion"],
+    "T1499": [
+        "Distributed Denial of Service",
+        "Denial of Service",
+        "DDoS"
+    ],
+    "T1499.004": ["Application Exploitation", "System Exploitation"],
+    "T1529": ["System Shutdown", "System Reboot", "Shutdown", "Reboot"],
+    "T1530": ["Data from Cloud Storage"],
+    "T1535": ["Unused Cloud Regions", "Unsupported Cloud Regions"],
+    "T1547": ["Boot Autostart Execution", "Logon Autostart Execution"],
+    "T1543": ["Create System Process", "Modify System Process"],
+    "T1547.001": ["Registry Run Keys", "Startup Folder"],
+    "T1547.004": ["Winlogon DLL"],
+    "T1547.006": ["Kernel Modules", "Kernel Extensions"],
+    "T1548.001": ["Setuid", "Setgid"],
+    "T1548.003": ["Sudo", "Sudo Caching"],
+    "T1553.003": ["SIP Hijacking", "Trust Provider Hijacking"],
+    "T1557.001": ["LLMNR/NBT-NS Poisoning", "SMB Relay"],
+    "T1558": ["Steal Kerberos Tickets", "Forge Kerberos Tickets"],
+    "T1560": ["Archive Data"],
+    "T1560.001": ["Archive Utility"],
+    "T1560.002": ["Archive Library"],
+    "T1560.003": ["Archive Custom Method"],
+    "T1562.001": ["Disable Tools", "Modify Tools"],
+    "T1562.004": ["Disable System Firewall", "Modify System Firewall"],
+    "T1562.007": ["Disable Cloud Firewall", "Modify Cloud Firewall"],
+    "T1564.001": ["Hidden Files", "Hidden Directories"],
+    "T1591": ["Gather Victim Organization Information"],
+    "T1593": ["Search Websites", "Search Domains"],
+    "T1594": ["Search Victim Websites"],
+    "T1596.001": ["DNS", "Passive DNS"],
+    "T1602": ["Data from Configuration"],
+    "T1602.001": ["SNMP", "MIB Dump", "Management Information Base"],
+    "T1602.002": ["Network Configuration"],
+    "T1613": ["Container Discovery", "Resource Discovery"],
+    "TA0011": ["C2", "C&C"]
+}

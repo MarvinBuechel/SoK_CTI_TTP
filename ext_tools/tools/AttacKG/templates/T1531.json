@@ -1,0 +1,1 @@
+{"nodes": [{"type": "actor", "nlp": ["LockerGoga"], "ioc": [], "count": 1}, {"type": "actor", "nlp": ["MegaCortex"], "ioc": [], "count": 1}, {"type": "system", "nlp": ["system"], "ioc": [], "count": 1}], "edges": [[[1, 2], 1]], "instances": [[], [[1, 2]]], "total_count": 2}

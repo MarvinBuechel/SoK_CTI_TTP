@@ -1,0 +1,1 @@
+{"nodes": [{"type": "actor", "nlp": ["MFA", "APT29"], "ioc": [], "count": 2}, {"type": "file", "nlp": ["OWA accounts"], "ioc": [], "count": 1}, {"type": "network", "nlp": ["signing certificates", "SAML"], "ioc": [], "count": 1}], "edges": [[[0, 1], 1], [[0, 2], 1]], "instances": [[[0, 1]], [[0, 2]]], "total_count": 2}

@@ -1,0 +1,1 @@
+{"nodes": [{"type": "actor", "nlp": ["APT28"], "ioc": [], "count": 1}, {"type": "network", "nlp": ["CVE-2015-4902"], "ioc": [], "count": 1}, {"type": "file", "nlp": ["security features"], "ioc": [], "count": 1}], "edges": [[[0, 1], 1], [[1, 2], 1]], "instances": [[[0, 1], [1, 2]]], "total_count": 1}

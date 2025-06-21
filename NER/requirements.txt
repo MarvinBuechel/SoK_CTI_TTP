@@ -1,0 +1,14 @@
+argformat==0.0.3
+beautifulsoup4
+matplotlib
+ndjson
+networkx
+nltk
+numpy
+pandas
+py_attack==0.0.1
+python-magic
+requests
+scikit_learn
+spacy
+tqdm

@@ -1,0 +1,3 @@
+from spacy_extensions.matcher.attribute import AttributeMatcher
+from spacy_extensions.matcher.sentence import SentenceMatcher
+from spacy_extensions.matcher.subphrase import SubphraseMatcher

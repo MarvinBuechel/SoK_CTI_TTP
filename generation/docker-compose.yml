@@ -1,0 +1,56 @@
+version: "3.8"
+
+services:
+  ollama:
+    build:
+      context: .
+      dockerfile: Dockerfile.ollama
+    container_name: ollama_local
+    volumes:
+      - ../.ollama:/root/.ollama
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+        interval: 10s
+        timeout: 5s
+        retries: 5000
+    runtime: nvidia
+    deploy:
+        resources:
+          reservations:
+            devices:
+              - driver: nvidia
+                count: all 
+                capabilities: [gpu]
+    expose:
+      - "11434"
+    networks:
+      - ollama_net
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ttp_generative_experiments
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - OLLAMA_API_URL=http://ollama:11434
+      - NVIDIA_VISIBLE_DEVICES=all
+    volumes:
+      - /tmp/huggingface:/tmp/huggingface
+      - ./experiments:/workspace/finetuning/experiments
+    depends_on:
+      ollama:
+        condition: service_healthy
+    networks:
+      - ollama_net
+
+networks:
+  ollama_net:
+    driver: bridge

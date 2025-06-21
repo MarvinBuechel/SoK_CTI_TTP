@@ -1,0 +1,1 @@
+{"nodes": [{"type": "actor", "nlp": ["Fox Kitten"], "ioc": [], "count": 2}, {"type": "file", "nlp": ["files"], "ioc": [], "count": 1}, {"type": "network", "nlp": ["cloud storage instances"], "ioc": [], "count": 1}], "edges": [[[0, 1], 1], [[1, 0], 1], [[0, 2], 1]], "instances": [[[0, 1], [1, 0], [0, 2]]], "total_count": 1}

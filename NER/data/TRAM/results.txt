@@ -1,0 +1,344 @@
+Classification report unweighted:
+                                                                                                                                            name  precision  recall  f1-score  support
+                                                                     TRAM/output/3CXDesktopApp Backdoored in a Suspected Lazarus Campaign  .json     0.7143  0.6250    0.6667       10
+TRAM/output/AA21200A Tactics Techniques and Procedures of Indicted APT40 Actors Associated with Chinas MSS Hainan State Security Department.json     0.5714  0.4000    0.4706       13
+            TRAM/output/AA22320A Iranian GovernmentSponsored APT Actors Compromise Federal Network Deploy Crypto Miner Credential Harvester.json     0.4706  0.8000    0.5926       19
+                                                                           TRAM/output/Bypassing Intel CET with Counterfeit Objects  OffSec.json     0.0000  0.0000    0.0000        2
+                                                                                   TRAM/output/Deja Vu All Over Again Tax Scammers at Large.json     0.6000  0.3000    0.4000       12
+                                                         TRAM/output/Detecting Credential Stealing Attacks Through Active InNetwork Defense.json     0.3333  0.3750    0.3529       14
+                                                 TRAM/output/Early Bird Catches the Wormhole Observations from the StellarParticle Campaign.json     0.6667  0.5714    0.6154       18
+                                                                   TRAM/output/Earth Zhulong Familiar Patterns Target Southeast Asian Firms.json     0.7273  0.5714    0.6400       17
+                                                TRAM/output/Emotet Strikes Again  LNK File Leads to Domain Wide Ransomware  The DFIR Report.json     0.7778  0.5833    0.6667       28
+                                                                        TRAM/output/eSentire Threat Intelligence Malware Analysis BatLoader.json     0.6667  0.2400    0.3529       28
+                                                                                                TRAM/output/EvilExtractor  AllinOne Stealer.json     0.0000  0.0000    0.0000       12
+                                                              TRAM/output/Fantasy  a new Agrius wiper deployed through a supplychain attack.json     0.6667  0.1429    0.2353       15
+                                                                           TRAM/output/FedEx Phishing Campaign Abusing TrustedForm and PAAY.json     0.0000  0.0000    0.0000        1
+                                                                                 TRAM/output/Hafniuminspired cyberattacks neutralized by AI.json     0.5000  0.5000    0.5000        6
+                                                                                TRAM/output/LAPSUS Recent techniques tactics and procedures.json     0.0000  0.0000    0.0000        7
+                                                                TRAM/output/LockBit 20 How This RaaS Operates and How to Protect Against It.json     0.5000  0.5882    0.5405       27
+                         TRAM/output/Malicious OAuth applications used to compromise email servers and spread spam  Microsoft Security Blog.json     0.0000  0.0000    0.0000        4
+                                                                                               TRAM/output/Malware Analysis LummaC2 Stealer.json     0.6667  0.4000    0.5000       12
+                                                                             TRAM/output/Malware Spotlight Camaro Dragons TinyNote Backdoor.json     0.7500  0.2727    0.4000       12
+                                                                                                             TRAM/output/Nefilim Ransomware.json     0.3333  0.1818    0.2353       15
+                                                                                      TRAM/output/New Horabot campaign targets the Americas.json     0.8000  0.1600    0.2667       26
+                                              TRAM/output/Not just an infostealer Gopuram backdoor deployed through 3CX supply chain attack.json     0.0000  0.0000    0.0000       13
+                                   TRAM/output/NotPetya Technical Analysis  A Triple Threat File Encryption MFT Encryption Credential Theft.json     1.0000  0.0588    0.1111       17
+                                                                          TRAM/output/Operation Spalax Targeted malware attacks in Colombia.json     0.8182  0.3000    0.4390       32
+                                                       TRAM/output/Rorschach  A New Sophisticated and Fast Ransomware  Check Point Research.json     0.6667  0.1818    0.2857       12
+                                                   TRAM/output/SOC Team Essentials  How to Investigate and Track the 8220 Gang Cloud Threat.json     1.0000  0.2500    0.4000        4
+                                                                                                TRAM/output/StopRansomware Royal Ransomware.json     0.6667  0.3636    0.4706       13
+                                                                                                TRAM/output/Take a NetWalk on the Wild Side.json     0.4167  0.9091    0.5714       25
+                                                                                       TRAM/output/Threat Assessment Black Basta Ransomware.json     0.6875  0.6875    0.6875       21
+                                                                              TRAM/output/Tomiris called they want their Turla malware back.json     0.0000  0.0000    0.0000        0
+                                                       TRAM/output/Understanding DNS attacks Identifying and patching vulnerabilities  Snyk.json     0.0000  0.0000    0.0000        7
+                                                                                                                                         Average     0.5822  0.3513    0.4382      442
+
+Classification report weighted:
+                                                                                                                                            name  precision  recall  f1-score  support
+                                                                     TRAM/output/3CXDesktopApp Backdoored in a Suspected Lazarus Campaign  .json     0.6667  0.7273    0.6957       15
+TRAM/output/AA21200A Tactics Techniques and Procedures of Indicted APT40 Actors Associated with Chinas MSS Hainan State Security Department.json     0.6364  0.5385    0.5833       17
+            TRAM/output/AA22320A Iranian GovernmentSponsored APT Actors Compromise Federal Network Deploy Crypto Miner Credential Harvester.json     0.5741  0.9394    0.7126       56
+                                                                           TRAM/output/Bypassing Intel CET with Counterfeit Objects  OffSec.json     0.0000  0.0000    0.0000        2
+                                                                                   TRAM/output/Deja Vu All Over Again Tax Scammers at Large.json     0.7778  0.5000    0.6087       16
+                                                         TRAM/output/Detecting Credential Stealing Attacks Through Active InNetwork Defense.json     0.5455  0.7826    0.6429       38
+                                                 TRAM/output/Early Bird Catches the Wormhole Observations from the StellarParticle Campaign.json     0.6429  0.7500    0.6923       34
+                                                                   TRAM/output/Earth Zhulong Familiar Patterns Target Southeast Asian Firms.json     0.7619  0.7273    0.7442       27
+                                                TRAM/output/Emotet Strikes Again  LNK File Leads to Domain Wide Ransomware  The DFIR Report.json     0.8085  0.7917    0.8000       57
+                                                                        TRAM/output/eSentire Threat Intelligence Malware Analysis BatLoader.json     0.7200  0.4865    0.5806       44
+                                                                                                TRAM/output/EvilExtractor  AllinOne Stealer.json     0.0000  0.0000    0.0000       12
+                                                              TRAM/output/Fantasy  a new Agrius wiper deployed through a supplychain attack.json     0.9091  0.4545    0.6061       23
+                                                                           TRAM/output/FedEx Phishing Campaign Abusing TrustedForm and PAAY.json     0.0000  0.0000    0.0000        1
+                                                                                 TRAM/output/Hafniuminspired cyberattacks neutralized by AI.json     0.6000  0.6000    0.6000        7
+                                                                                TRAM/output/LAPSUS Recent techniques tactics and procedures.json     0.0000  0.0000    0.0000        7
+                                                                TRAM/output/LockBit 20 How This RaaS Operates and How to Protect Against It.json     0.6458  0.8158    0.7209       55
+                         TRAM/output/Malicious OAuth applications used to compromise email servers and spread spam  Microsoft Security Blog.json     0.0000  0.0000    0.0000        8
+                                                                                               TRAM/output/Malware Analysis LummaC2 Stealer.json     0.6154  0.5714    0.5926       19
+                                                                             TRAM/output/Malware Spotlight Camaro Dragons TinyNote Backdoor.json     0.8000  0.3333    0.4706       13
+                                                                                                             TRAM/output/Nefilim Ransomware.json     0.3333  0.2500    0.2857       18
+                                                                                      TRAM/output/New Horabot campaign targets the Americas.json     0.9412  0.4324    0.5926       38
+                                              TRAM/output/Not just an infostealer Gopuram backdoor deployed through 3CX supply chain attack.json     0.0000  0.0000    0.0000       13
+                                   TRAM/output/NotPetya Technical Analysis  A Triple Threat File Encryption MFT Encryption Credential Theft.json     1.0000  0.1111    0.2000       18
+                                                                          TRAM/output/Operation Spalax Targeted malware attacks in Colombia.json     0.9200  0.5227    0.6667       46
+                                                       TRAM/output/Rorschach  A New Sophisticated and Fast Ransomware  Check Point Research.json     0.6000  0.4000    0.4800       19
+                                                   TRAM/output/SOC Team Essentials  How to Investigate and Track the 8220 Gang Cloud Threat.json     1.0000  0.4000    0.5714        5
+                                                                                                TRAM/output/StopRansomware Royal Ransomware.json     0.7143  0.4167    0.5263       14
+                                                                                                TRAM/output/Take a NetWalk on the Wild Side.json     0.4186  0.9474    0.5806       44
+                                                                                       TRAM/output/Threat Assessment Black Basta Ransomware.json     0.7097  0.8148    0.7586       36
+                                                                              TRAM/output/Tomiris called they want their Turla malware back.json     0.0000  0.0000    0.0000        0
+                                                       TRAM/output/Understanding DNS attacks Identifying and patching vulnerabilities  Snyk.json     0.0000  0.0000    0.0000        7
+                                                                                                                                         Average     0.6542  0.5783    0.6139      709
+
+Classification labels unweighted:
+     name  precision  recall  f1-score  support
+T1003.001     1.0000  0.3333    0.5000        9
+    T1005     0.6667  0.2000    0.3077       11
+    T1012     0.0000  0.0000    0.0000        3
+    T1016     0.5000  0.2000    0.2857        6
+T1016.001     0.0000  0.0000    0.0000        1
+T1021.001     1.0000  0.6667    0.8000        9
+    T1027     1.0000  0.1364    0.2400       22
+T1027.003     0.0000  0.0000    0.0000       10
+T1027.009     0.0000  0.0000    0.0000        3
+    T1033     0.1667  0.1667    0.1667       11
+T1036.005     1.0000  0.2000    0.3333        5
+    T1041     0.5000  0.1667    0.2500        7
+    T1047     0.3333  0.2000    0.2500        7
+T1053.005     1.0000  1.0000    1.0000        9
+    T1055     1.0000  0.3846    0.5556       13
+T1055.001     0.0000  0.0000    0.0000        1
+T1055.002     0.0000  0.0000    0.0000        1
+T1055.004     0.0000  0.0000    0.0000        1
+T1055.012     0.0000  0.0000    0.0000        1
+T1056.001     1.0000  0.5000    0.6667        6
+    T1057     0.6667  0.3333    0.4444        7
+T1059.003     1.0000  0.1333    0.2353       15
+    T1068     0.5000  1.0000    0.6667        2
+T1070.004     0.8889  0.6667    0.7619       13
+T1071.001     1.0000  0.2222    0.3636        9
+    T1072     0.0000  0.0000    0.0000        1
+T1074.001     0.0000  0.0000    0.0000        2
+    T1078     0.7500  0.4000    0.5217       17
+T1078.001     0.0000  0.0000    0.0000        2
+T1078.002     0.0000  0.0000    0.0000        7
+T1078.003     0.0000  0.0000    0.0000        5
+T1078.004     0.0000  0.0000    0.0000        2
+    T1082     1.0000  0.3333    0.5000       15
+    T1083     0.0000  0.0000    0.0000       10
+    T1090     0.4444  0.6667    0.5333       11
+T1090.001     0.0000  0.0000    0.0000        1
+T1090.002     0.0000  0.0000    0.0000        1
+    T1095     0.0000  0.0000    0.0000        3
+    T1105     0.6667  0.1111    0.1905       19
+    T1106     1.0000  0.1538    0.2667       13
+    T1110     0.5714  0.8000    0.6667        8
+T1110.001     0.0000  0.0000    0.0000        1
+T1110.003     0.0000  0.0000    0.0000        1
+T1110.004     0.0000  0.0000    0.0000        1
+    T1112     1.0000  0.2222    0.3636        9
+    T1113     1.0000  0.2000    0.3333        5
+    T1140     0.7143  0.2941    0.4167       19
+    T1190     0.8000  0.5714    0.6667        8
+T1204.002     0.4286  0.8571    0.5714       15
+    T1210     0.0000  0.0000    0.0000        3
+T1218.011     1.0000  0.2000    0.3333        5
+    T1219     1.0000  0.7500    0.8571        4
+T1484.001     1.0000  0.4000    0.5714        5
+T1518.001     0.0000  0.0000    0.0000        7
+T1543.003     0.3333  0.2500    0.2857        6
+T1547.001     1.0000  0.8333    0.9091        6
+T1548.002     0.5000  0.5000    0.5000        3
+T1552.001     1.0000  0.3333    0.5000        3
+T1562.001     0.7143  0.5556    0.6250       11
+T1564.001     0.6667  1.0000    0.8000        3
+T1566.001     1.0000  0.4444    0.6154        9
+T1569.002     0.6667  1.0000    0.8000        3
+    T1570     0.5000  0.1667    0.2500        7
+T1573.001     0.0000  0.0000    0.0000        3
+T1574.002     1.0000  0.6667    0.8000        6
+  Average     0.5822  0.3513    0.4382      442
+
+Classification labels weighted:
+     name  precision  recall  f1-score  support
+T1003.001     1.0000  0.7857    0.8800       28
+    T1005     0.6667  0.3333    0.4444       14
+    T1012     0.0000  0.0000    0.0000        3
+    T1016     0.5000  0.2000    0.2857        6
+T1016.001     0.0000  0.0000    0.0000        2
+T1021.001     1.0000  0.8125    0.8966       16
+    T1027     1.0000  0.2400    0.3871       25
+T1027.003     0.0000  0.0000    0.0000       19
+T1027.009     0.0000  0.0000    0.0000        4
+    T1033     0.1429  0.1667    0.1538       12
+T1036.005     1.0000  0.4286    0.6000        7
+    T1041     0.2500  0.1667    0.2000        9
+    T1047     0.1667  0.2000    0.1818       10
+T1053.005     1.0000  1.0000    1.0000       30
+    T1055     1.0000  0.7647    0.8667       34
+T1055.001     0.0000  0.0000    0.0000        2
+T1055.002     0.0000  0.0000    0.0000        1
+T1055.004     0.0000  0.0000    0.0000        1
+T1055.012     0.0000  0.0000    0.0000        1
+T1056.001     1.0000  0.6667    0.8000        9
+    T1057     0.6667  0.5000    0.5714       10
+T1059.003     1.0000  0.1333    0.2353       15
+    T1068     0.5000  1.0000    0.6667        6
+T1070.004     0.8400  0.8400    0.8400       29
+T1071.001     1.0000  0.3636    0.5333       11
+    T1072     0.0000  0.0000    0.0000        1
+T1074.001     0.0000  0.0000    0.0000        2
+    T1078     0.8000  0.5714    0.6667       24
+T1078.001     0.0000  0.0000    0.0000        6
+T1078.002     0.0000  0.0000    0.0000        8
+T1078.003     0.0000  0.0000    0.0000       13
+T1078.004     0.0000  0.0000    0.0000        5
+    T1082     1.0000  0.5238    0.6875       21
+    T1083     0.0000  0.0000    0.0000       12
+    T1090     0.6250  0.8824    0.7317       26
+T1090.001     0.0000  0.0000    0.0000        2
+T1090.002     0.0000  0.0000    0.0000        2
+    T1095     0.0000  0.0000    0.0000        3
+    T1105     0.8000  0.2000    0.3200       21
+    T1106     1.0000  0.2143    0.3529       14
+    T1110     0.4615  0.8571    0.6000       14
+T1110.001     0.0000  0.0000    0.0000        1
+T1110.003     0.0000  0.0000    0.0000        3
+T1110.004     0.0000  0.0000    0.0000        3
+    T1112     1.0000  0.3000    0.4615       10
+    T1113     1.0000  0.2000    0.3333        5
+    T1140     0.6250  0.4545    0.5263       28
+    T1190     0.8000  0.7273    0.7619       13
+T1204.002     0.5946  0.9565    0.7333       38
+    T1210     0.0000  0.0000    0.0000        4
+T1218.011     1.0000  0.3333    0.5000        6
+    T1219     1.0000  0.8333    0.9091        6
+T1484.001     1.0000  0.6250    0.7692        8
+T1518.001     0.0000  0.0000    0.0000        8
+T1543.003     0.5000  0.5000    0.5000        9
+T1547.001     1.0000  0.9412    0.9697       17
+T1548.002     0.6667  0.6667    0.6667        4
+T1552.001     1.0000  0.5000    0.6667        4
+T1562.001     0.8000  0.8000    0.8000       24
+T1564.001     0.8000  1.0000    0.8889        5
+T1566.001     1.0000  0.5455    0.7059       11
+T1569.002     0.6000  1.0000    0.7500        5
+    T1570     0.5000  0.2857    0.3636        9
+T1573.001     0.0000  0.0000    0.0000        3
+T1574.002     1.0000  0.7143    0.8333        7
+  Average     0.6542  0.5783    0.6139      709
+
+Confusion report unweighted:
+     name  TP  FP  FN  support
+T1003.001   3   0   6        9
+    T1005   2   1   8       11
+    T1012   0   0   3        3
+    T1016   1   1   4        6
+T1016.001   0   1   0        1
+T1021.001   6   0   3        9
+    T1027   3   0  19       22
+T1027.003   0  10   0       10
+T1027.009   0   3   0        3
+    T1033   1   5   5       11
+T1036.005   1   0   4        5
+    T1041   1   1   5        7
+    T1047   1   2   4        7
+T1053.005   9   0   0        9
+    T1055   5   0   8       13
+T1055.001   0   1   0        1
+T1055.002   0   1   0        1
+T1055.004   0   1   0        1
+T1055.012   0   1   0        1
+T1056.001   3   0   3        6
+    T1057   2   1   4        7
+T1059.003   2   0  13       15
+    T1068   1   1   0        2
+T1070.004   8   1   4       13
+T1071.001   2   0   7        9
+    T1072   0   1   0        1
+T1074.001   0   0   2        2
+    T1078   6   2   9       17
+T1078.001   0   2   0        2
+T1078.002   0   7   0        7
+T1078.003   0   5   0        5
+T1078.004   0   2   0        2
+    T1082   5   0  10       15
+    T1083   0   3   7       10
+    T1090   4   5   2       11
+T1090.001   0   1   0        1
+T1090.002   0   1   0        1
+    T1095   0   0   3        3
+    T1105   2   1  16       19
+    T1106   2   0  11       13
+    T1110   4   3   1        8
+T1110.001   0   1   0        1
+T1110.003   0   1   0        1
+T1110.004   0   1   0        1
+    T1112   2   0   7        9
+    T1113   1   0   4        5
+    T1140   5   2  12       19
+    T1190   4   1   3        8
+T1204.002   6   8   1       15
+    T1210   0   1   2        3
+T1218.011   1   0   4        5
+    T1219   3   0   1        4
+T1484.001   2   0   3        5
+T1518.001   0   2   5        7
+T1543.003   1   2   3        6
+T1547.001   5   0   1        6
+T1548.002   1   1   1        3
+T1552.001   1   0   2        3
+T1562.001   5   2   4       11
+T1564.001   2   1   0        3
+T1566.001   4   0   5        9
+T1569.002   2   1   0        3
+    T1570   1   1   5        7
+T1573.001   0   0   3        3
+T1574.002   4   0   2        6
+
+Confusion report weighted:
+     name  TP  FP  FN  support
+T1003.001  22   0   6       28
+    T1005   4   2   8       14
+    T1012   0   0   3        3
+    T1016   1   1   4        6
+T1016.001   0   2   0        2
+T1021.001  13   0   3       16
+    T1027   6   0  19       25
+T1027.003   0  19   0       19
+T1027.009   0   4   0        4
+    T1033   1   6   5       12
+T1036.005   3   0   4        7
+    T1041   1   3   5        9
+    T1047   1   5   4       10
+T1053.005  30   0   0       30
+    T1055  26   0   8       34
+T1055.001   0   2   0        2
+T1055.002   0   1   0        1
+T1055.004   0   1   0        1
+T1055.012   0   1   0        1
+T1056.001   6   0   3        9
+    T1057   4   2   4       10
+T1059.003   2   0  13       15
+    T1068   3   3   0        6
+T1070.004  21   4   4       29
+T1071.001   4   0   7       11
+    T1072   0   1   0        1
+T1074.001   0   0   2        2
+    T1078  12   3   9       24
+T1078.001   0   6   0        6
+T1078.002   0   8   0        8
+T1078.003   0  13   0       13
+T1078.004   0   5   0        5
+    T1082  11   0  10       21
+    T1083   0   5   7       12
+    T1090  15   9   2       26
+T1090.001   0   2   0        2
+T1090.002   0   2   0        2
+    T1095   0   0   3        3
+    T1105   4   1  16       21
+    T1106   3   0  11       14
+    T1110   6   7   1       14
+T1110.001   0   1   0        1
+T1110.003   0   3   0        3
+T1110.004   0   3   0        3
+    T1112   3   0   7       10
+    T1113   1   0   4        5
+    T1140  10   6  12       28
+    T1190   8   2   3       13
+T1204.002  22  15   1       38
+    T1210   0   2   2        4
+T1218.011   2   0   4        6
+    T1219   5   0   1        6
+T1484.001   5   0   3        8
+T1518.001   0   3   5        8
+T1543.003   3   3   3        9
+T1547.001  16   0   1       17
+T1548.002   2   1   1        4
+T1552.001   2   0   2        4
+T1562.001  16   4   4       24
+T1564.001   4   1   0        5
+T1566.001   6   0   5       11
+T1569.002   3   2   0        5
+    T1570   2   2   5        9
+T1573.001   0   0   3        3
+T1574.002   5   0   2        7
+

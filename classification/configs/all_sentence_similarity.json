@@ -1,0 +1,50 @@
+{
+    "bosch": {
+        "bosch_t": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.48684210526315785
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.618421052631579
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.48684210526315785
+            }
+        },
+        "all_mitre": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.48684210526315785
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.618421052631579
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.48684210526315785
+            }
+        }
+    },
+    "tram": {
+        "tram": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.513157894736842
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.5657894736842105
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.513157894736842
+            }
+        },
+        "all_mitre": {
+            "sentence-transformers/all-mpnet-base-v2": {
+                "tau": 0.513157894736842
+            },
+            "basel/ATTACK-BERT": {
+                "tau": 0.5657894736842105
+            },
+            "qcri-cs/SentSecBert_10k": {
+                "tau": 0.513157894736842
+            }
+        }
+    }
+}

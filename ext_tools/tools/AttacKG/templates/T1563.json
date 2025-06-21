@@ -1,0 +1,1 @@
+{"nodes": [{"type": "actor", "nlp": ["WannaCry"], "ioc": [], "count": 1}, {"type": "network", "nlp": ["each session", "remote desktop sessions"], "ioc": [], "count": 2}, {"type": "executable", "nlp": ["malware"], "ioc": [], "count": 1}], "edges": [[[0, 1], 1], [[1, 2], 1], [[2, 1], 1]], "instances": [[[0, 1], [1, 2], [2, 1]]], "total_count": 1}

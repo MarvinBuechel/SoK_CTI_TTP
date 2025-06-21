@@ -1,0 +1,2 @@
+from spacy_extensions.pipeline.contextualizer.window   import ContextualizerWindow
+from spacy_extensions.pipeline.contextualizer.sentence import ContextualizerSentence
