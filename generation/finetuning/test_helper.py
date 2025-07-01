@@ -96,7 +96,7 @@ def inference(model, tokenizer, user_message):
         output_ids = model.generate(
             **inputs,
             streamer=text_streamer,
-            max_new_tokens=128,
+            max_new_tokens=256,
             do_sample=False,
             top_p=1,
             repetition_penalty=1.2,

@@ -249,6 +249,8 @@ if __name__ == '__main__':
     f1, precision, recall = inference(experiments.experimentT4, "BaseTram", model_base, tokenizer)
     results.append({'Experiment': experiments.experimentT4["Name"], 'F1-Score': f1, 'Precision': precision, 'Recall': recall})
 
+    del model_base
+
 
     #SFT
     # TRAM
@@ -334,12 +336,6 @@ if __name__ == '__main__':
     pd.DataFrame(results).to_csv("finetuning/experiments/" + "table10_augmented_data" + ".csv", index=False)
     results = []
     del trained_model
-
-
-
-    #Cleanup
-    del model_base
-    torch.cuda.empty_cache()
 
 
     # Document-Level Tests

@@ -12,6 +12,12 @@ docker run ner
 > [!IMPORTANT]  
 > The documents from both TRAM 2 and the Bosch AnnoCTR dataset are available in the `data/` directory. While these are the same documents as in the other experiments, their format is different as the NER pipelines take full raw text documents, rather than JSON format.
 
+Besides using the Dockerfile, it is possible to manually reproduce the results. To this end, please follow the [Installation](#installation) instructions below. After, installing the required packages, you can run the `experiments/ablation.sh` file to reproduce the results from Table 5. This experiment performs the following actions:
+ 1. Create the NER pipelines required for each part of the ablation study. This runs the script `experiments/create_pipelines.sh` which executes the "pipeline generation" part of the [Usage](#usage) instructions for this experiment.
+ 2. Run the documents (see `data/` directory) through the created pipelines. This runs the script `experiments/run_pipelines.sh` which takes all TRAM2 and Bosch AnnoCTR documents and runs it through the created pipelines. The resulting parsed documents can be found in the `output/` directory that is created when running the script.
+ 3. Evaluate the parsed documents by comparing the named entities with the ground truth labels. This runs the script `experiments/evaluate_pipelines.sh` which takes all parsed documents and their ground truth labels to perform the evaluation. Results of this evaluation are stored in the `results/`
+ directory that is created when running the script.
+ 
 ## Installation
 Currently, `spacy-extensions` can only be installed by locally downloading the repository.
 Next, you can install the module using `pip`:

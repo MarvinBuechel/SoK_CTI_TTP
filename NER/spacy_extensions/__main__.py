@@ -217,11 +217,9 @@ def evaluate(args: argparse.Namespace) -> None:
 
     for filename, prediction in predictions.items():
         # Lookup filename label
-        label = (
-            labels.get(filename) or
-            labels.get(Path(filename).name) or
-            labels.get(Path(filename).stem)
-        )
+        label = labels.get(filename)
+        if label is None: label = labels.get(Path(filename).name)
+        if label is None: label = labels.get(Path(filename).stem)
         # Check if entry is present as label
         if label is None:
             raise ValueError(f"Could not find entry for '{filename}'")
