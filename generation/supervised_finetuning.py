@@ -250,6 +250,7 @@ if __name__ == '__main__':
     results.append({'Experiment': experiments.experimentT4["Name"], 'F1-Score': f1, 'Precision': precision, 'Recall': recall})
 
     del model_base
+    torch.cuda.empty_cache()
 
 
     #SFT
@@ -269,6 +270,7 @@ if __name__ == '__main__':
     results.append({'Experiment': experiments.experimentT4["Name"], 'F1-Score': f1, 'Precision': precision, 'Recall': recall})
 
     del trained_model
+    torch.cuda.empty_cache()
 
 
     # Bosch
@@ -286,6 +288,7 @@ if __name__ == '__main__':
     results.append({'Experiment': experiments.experimentBosch4["Name"], 'F1-Score': f1, 'Precision': precision, 'Recall': recall})
 
     del model_bosch
+    torch.cuda.empty_cache()
 
     pd.DataFrame(results).to_csv("finetuning/experiments/" + "table9_methods" + ".csv", index=False)
     results = []
@@ -336,6 +339,7 @@ if __name__ == '__main__':
     pd.DataFrame(results).to_csv("finetuning/experiments/" + "table10_augmented_data" + ".csv", index=False)
     results = []
     del trained_model
+    torch.cuda.empty_cache()
 
 
     # Document-Level Tests
@@ -360,6 +364,7 @@ if __name__ == '__main__':
     f1, precision, recall = inference(experiments.TramDocumentLevelFSP, "BaseTram", model_base, tokenizer)
     results.append({'Experiment': experiments.TramDocumentLevelFSP["Name"], 'F1-Score': f1, 'Precision': precision, 'Recall': recall})
     del model_base
+    torch.cuda.empty_cache()
 
     pd.DataFrame(results).to_csv("finetuning/experiments/" + "table11_document_level" + ".csv", index=False)
 
