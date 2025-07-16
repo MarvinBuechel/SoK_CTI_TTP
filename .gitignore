@@ -161,3 +161,4 @@ cython_debug/
 # *.csv
 # *.txt
 database/rag_db.csv
+/.ollama

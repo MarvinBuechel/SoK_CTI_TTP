@@ -138,7 +138,7 @@ def train(dataset_path: str, val_dataset_len_per: float = 0.025,
 
 
 # Load model based on the name
-def load_model(load_model_name):
+def load_model(load_model_name, quant_4bit_model = load_in_4bit):
     """
         Loads a pre-trained language model and tokenizer for inference.
 
@@ -155,7 +155,7 @@ def load_model(load_model_name):
         model_name=load_model_name,
         max_seq_length=max_seq_length,
         dtype=None,
-        load_in_4bit=load_in_4bit,
+        load_in_4bit=quant_4bit_model,
     )
 
     # Set model in inference mode
