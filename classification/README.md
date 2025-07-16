@@ -69,25 +69,7 @@ You can test the successful build by executing the following:
 $ docker run --gpus all -it sok-classification
 ```
 
-You should see:
-```
-==========
-== CUDA ==
-==========
-
-CUDA Version 12.1.1
-
-Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
-
-This container image and its contents are governed by the NVIDIA Deep Learning Container License.
-By pulling and using the container, you accept the terms and conditions of this license:
-https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
-
-A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
-
-torch 2.4.1+cu121
-sys 3.10.12 (main, Jun 18 2025, 11:57:12) [GCC 11.4.0]
-```
+This should partially reproduce the results shown in Table 6 of our paper.
 
 ## 2. Usage
 
