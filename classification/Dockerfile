@@ -44,5 +44,4 @@ RUN chmod +x artifact_eval/*.sh
 ARG RUN_DEVICE 
 ENV DEVICE=${RUN_DEVICE:-cuda}
 
-CMD ["python", "hello.py"]
-
+CMD ["bash", "./artifact_eval/gen_table_6_tram.sh"]
