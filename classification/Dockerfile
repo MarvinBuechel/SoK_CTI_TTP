@@ -31,12 +31,12 @@ RUN pip install -r requirements.txt
 COPY *.py .
 COPY *.ipynb .
 
-COPY artifact_eval/ artifact_eval
 COPY configs/ configs
 COPY nvidia-embed/ nvidia-embed
 COPY fine_tuned/ fine_tuned
 COPY datasets/ datasets
 COPY local/ local
+COPY artifact_eval/ artifact_eval
 COPY .darkbert_token .
 
 RUN chmod +x artifact_eval/*.sh
@@ -44,4 +44,4 @@ RUN chmod +x artifact_eval/*.sh
 ARG RUN_DEVICE 
 ENV DEVICE=${RUN_DEVICE:-cuda}
 
-CMD ["bash", "./artifact_eval/gen_table_6_tram.sh"]
+CMD ["bash", "./artifact_eval/minimal.sh"]
