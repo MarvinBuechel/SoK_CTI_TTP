@@ -20,5 +20,5 @@ if __name__ == '__main__':
     f1, precision, recall = sft.inference(experiments.experimentBosch1, "BaseBosch", model_base, tokenizer)
     results.append({'Experiment': experiments.experimentBosch1["Name"], 'F1-Score': f1, 'Precision': precision, 'Recall': recall})
 
-    pd.DataFrame(results).to_csv("finetuning/experiments/" + "minimal_working_example" + ".csv", index=False)
+    pd.DataFrame(results).to_csv("finetuning/experiments/" + "minimal" + ".csv", index=False)
 

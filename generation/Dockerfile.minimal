@@ -9,4 +9,4 @@ RUN pip3 install -r requirements.txt
 CMD ["python3", "min_working_example.py"]
 
 # build with: docker build -t minimal -f Dockerfile.minimal .
-# start with: docker run --gpus all minimal
+# start with: docker run --volume ./experiments:/workspace/finetuning/experiments --gpus all --rm minimal
